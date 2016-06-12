@@ -16,7 +16,8 @@ knit        : slidify::knit2slides
 * Analysis done using Shiny interactive app
 * A fully documented shiny app was built and deployed at: https://brennap3.shinyapps.io/CampaignFinanceApp/
 * Git repo: https://github.com/brennap3/CampaignFinanceApp
-* Git repo for slidify presentation:
+* Git repo for slidify presentation:https://github.com/brennap3/First_Presentation
+* Rpubs: http://brennap3.github.io/First_Presentation/#1
 
 ---
 
