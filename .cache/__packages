@@ -1,0 +1,15 @@
+base
+xml2
+rvest
+dplyr
+proto
+gsubfn
+DBI
+RSQLite
+sqldf
+magrittr
+stringr
+tidyr
+lubridate
+ggplot2
+scales

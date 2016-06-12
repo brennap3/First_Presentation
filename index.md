@@ -14,8 +14,9 @@ knit        : slidify::knit2slides
 * Analysis of open secrets data US 2016 campaign Finance data from (http://www.opensecrets.org/pres16/also-rans.php)
 * Peter Brennan, 12th June 2016
 * Analysis done using Shiny interactive app
-* 
-
+* A fully documented shiny app was built and deployed at: https://brennap3.shinyapps.io/CampaignFinanceApp/
+* Git repo: https://github.com/brennap3/CampaignFinanceApp
+* Git repo for slidify presentation:
 
 ---
 
@@ -42,7 +43,7 @@ knit        : slidify::knit2slides
 
 
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
 
 
 
