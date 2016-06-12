@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>US elections 2016 campaign analysis</title>
+  <meta charset="utf-8">
+  <meta name="description" content="US elections 2016 campaign analysis">
+  <meta name="author" content="Peter Brennan">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>US elections 2016 campaign analysis</h1>
+    <h2></h2>
+    <p>Peter Brennan<br/>Data Guy</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>US elections 2016 campaign analysis</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Analysis of open secrets data US 2016 campaign Finance data from (<a href="http://www.opensecrets.org/pres16/also-rans.php">http://www.opensecrets.org/pres16/also-rans.php</a>)</li>
+<li>Peter Brennan, 12th June 2016</li>
+<li>Analysis done using Shiny interactive app</li>
+<li></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Analysis of US campaign Data Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Analysis of Opensecrets US 2016 elections Campaign Data</li>
+<li>Data scraped using rvest from <a href="http://www.opensecrets.org/pres16/also-rans.php">http://www.opensecrets.org/pres16/also-rans.php</a></li>
+<li>Data analyzed using dplyr and ggplot</li>
+<li>Shiny app created and hosted to show differences in funding to both candidates and party&#39;s</li>
+<li><a href="https://brennap3.shinyapps.io/CampaignFinanceApp/">https://brennap3.shinyapps.io/CampaignFinanceApp/</a></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>What did we learn</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Republicans raise more through PAC&#39;s</li>
+<li>Democrats raise more through campaign funding</li>
+<li>Establsihment candidates raise more through PAC&#39;s</li>
+<li>Anti establishment candidates in both parties raise little in PAC funding or none in the case of Sanders.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Lets look at the results</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="figure/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='US elections 2016 campaign analysis'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Analysis of US campaign Data Overview'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='What did we learn'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Lets look at the results'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
